@@ -1,0 +1,111 @@
+
+.bodyBox {
+	margin: 0px 50px 0px 50px;
+}
+
+h1 {
+	width:100%;
+	text-align:center;
+}  
+
+.header {
+	border: 2px solid grey;
+	width:100%;
+}
+
+#logo {
+	position:fixed;
+	height:10%;
+	width:10%;
+	top:10px;
+}
+
+.TableBox {
+	margin-top: 10px;
+	border:2px solid grey;
+	width:100%;
+	height:100%;
+	
+}
+
+table {
+	position:relative;
+	left: 20%;
+	width:80%;
+	padding: 10px;
+}
+th {
+	border:2px solid grey;
+	padding:5px;
+	margin:10px;
+	border-radius: 8px;
+}
+td {
+	text-align: center;
+
+
+}
+
+.Ruter {
+	list-style-type:none;
+	width:20%;
+	position:relative;
+	right:40px;
+
+
+	
+
+}
+
+li {
+	border:2px solid grey;
+	margin:2px;
+	padding:10px;
+	text-align: center;
+	font-weight: bold;
+	border-radius: 8px;
+	
+}
+.DriverInput {
+	position: absolute;
+	left: 24%;
+	bottom: 75%;
+	text-align:center;
+	border-radius:8px;
+
+}
+#addRoute {
+	position:absolute;
+	top:155px;
+	left: 80px;
+	border-radius:5px;
+	height:50px;
+	width: 100px;
+	background-color:#F3036C;
+	border-color:#F3036C;
+	font-size: 15px;
+}
+
+#removeRoute {
+	position:absolute;
+	top:155px;
+	left: 200px;
+	border-radius:5px;
+	height:50px;
+	width: 100px;
+	background-color:#F3036C;
+	border-color:#F3036C;
+	font-size: 14px;
+}
+
+#removeAllRoutes {
+	position:absolute;
+	top:155px;
+	left: 320px;
+	border-radius:5px;
+	height:50px;
+	width: 100px;
+	background-color:#F3036C;
+	border-color:#F3036C;
+	font-size: 14px;
+}
